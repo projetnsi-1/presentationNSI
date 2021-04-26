@@ -1,0 +1,184 @@
+body{
+  font-family:'Inconsolata',sans-serif;
+  background-image:url("images/imagefond.jpg");
+  background-repeat: repeat-x;
+  background-color: white;
+  background-attachment: fixed;
+  min-height: 75%;
+  font-size:85%;
+}
+
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/inconsolata/v21/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRL2l2eY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/inconsolata/v21/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRP2l2eY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/inconsolata/v21/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WR32lw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+#Conteneur
+{
+  display: flex;
+  font-size:25px;
+  border-radius:5px;
+  transition:0.5s;
+  font-family: "Inconsolata",sans-serif;
+  justify-content: space-around;
+  padding-top:0.5%;
+  padding-bottom: 0.5%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+#Conteneur a:link,#Conteneur  a:visited {
+  width:25%;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#Conteneur a:hover,#Conteneur  a:active {
+  background-color: #CCCCCC;
+  color: black;
+  border-radius: 10px;
+}
+#Titre{
+text-align: center;
+font-size: 90px;
+color: White;
+width: 100%;
+padding-top: 7%;
+padding-bottom: 7%;
+}
+#section_1{
+  transition:1s;
+  text-align:center;
+  text-align:justify;
+  font-size:190%;
+  color:white;
+  background-color:black;
+  width:70%;
+  border-radius: 5px;
+  padding: 1% 2% 1% 2%;
+  margin:0 auto;
+}
+#pres_2{
+  padding-top:2%;
+  padding-bottom:2%;
+}
+#titre_pres{
+  margin-top:2%;
+  color:white;
+  font-size:125%;
+  text-align:left;
+  margin-left:1%;
+}
+h2{
+  margin-top:7%;
+  color:white;
+  font-size:125%;
+  text-align:left;
+  margin-left:1%
+}
+#text_pres{
+  text-align:justify;
+}
+#liste_prog{
+  text-align:left;
+  padding-right:30%;
+}
+#liste_prog li{
+  margin-top:3%;
+}
+#lien_prog{
+  text-align:justify;
+}
+#liste_projets{
+  margin-top:2%;
+}
+#form_insc{
+  display:flex;
+}
+#txt_prenom_insc{
+  margin-left:24%;
+}
+#txt_nom_insc{
+  margin-left:17%;
+  margin-right:7%;
+}
+#input_nom{
+  margin-left:12%;
+  height: 30px;
+  width: 200px;
+  font-size:80%;
+  margin-top:3px;
+}
+#input_prenom{
+  margin-left:29%;
+  height: 30px;
+  width: 200px;
+  font-size:80%;
+  min-height:75%;
+}
+#form_insc_2{
+  display:flex;
+}
+#txt_classe{
+  margin-left:9%;
+}
+#txt_choix{
+  margin-left:20%;
+}
+#input_classe{
+  margin-left:12%;
+  height: 30px;
+  width: 200px;
+  font-size:80%;
+}
+#input_choix{
+  margin-left:51%;
+  margin-top:-3%;
+}
+#submit_insc{
+  margin-left:92%;
+  margin-top:2%;
+  height: 30px;
+  width: 80px;
+}
+#bas_page{
+  margin-top:10%;
+  margin-bottom:2%;
+}
+#titre_page_prog{
+  margin-top:5%;
+  font-size:120%;
+}
+.prog_page{
+  margin-top:1%;
+}
+iframe{
+  height: 800px;
+}
+#descartes_img{
+  float:left;
+}
